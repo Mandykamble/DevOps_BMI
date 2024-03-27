@@ -14,6 +14,10 @@ steps:
     npm install
   displayName: 'Install dependencies'
 
+  - script: |
+    npm install express
+  displayName: 'Install express'
+
 - script: |
     npm test
   displayName: 'Run tests'
