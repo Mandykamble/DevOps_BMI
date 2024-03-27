@@ -16,7 +16,7 @@ app.post("/calculate", (req, res) => {
 function calculateBMI(weight, height) {
   return weight / (height * height);
 }
-
+// comment made by subham kumar
 const port = process.env.PORT || 8000;
 app.listen(port, () =>
   console.log(
