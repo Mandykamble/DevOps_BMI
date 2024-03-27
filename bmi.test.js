@@ -1,5 +1,5 @@
 const request = require("supertest");
-const app = require("../bmi-calculator/bmi-calculator");
+const app = require("./bmi-calculator");
 
 describe("BMI Calculator API", () => {
   it("should calculate BMI correctly", async () => {
