@@ -1,3 +1,3 @@
 # DevOps_BMI
 
-change made by subham kumar
+The change made to run CI pipeline 
