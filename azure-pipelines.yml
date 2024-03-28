@@ -1,6 +1,14 @@
 trigger:
 - main
 
+schedules:
+- cron: "45 15 * * *"
+  displayName: Daily build
+  branches:
+    include:
+    - main
+  always: true
+
 pool:
   vmImage: 'ubuntu-latest'
 
